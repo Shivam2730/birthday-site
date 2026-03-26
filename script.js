@@ -10,13 +10,13 @@ window.addEventListener("load", () => {
 
 // NAME
 const params=new URLSearchParams(window.location.search);
-const name=params.get("name")||"Bestie";
+const name=params.get("name")||"Paruuu";
 
 document.getElementById("name").innerText=
 "Happy 21st Birthday "+name+" 🎉";
 
 // MESSAGE
-const text="Miss Dizzi and yaa auntu di preet... 💙\n\nHAPPY BIRTHDAY TO YOU 🎉🎂";
+const text="Baar baar din yeh aaye, baar baar dil yeh gaaye 🎶  Tu jiyo hazaaron saal, yeh meri hai dua 💖 💙\n\nHAPPY BIRTHDAY TO YOU 🎉🎂";
 let i=0;
 
 function type(){
